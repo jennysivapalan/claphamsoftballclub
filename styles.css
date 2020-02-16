@@ -44,7 +44,7 @@ h3 {
 #main-image {
 	background-image: url(images/d3-1.jpg);
 	background-size: cover;
-	background-position: 0 -240px;
+	background-position: 0;
 	background-repeat: no-repeat;
 	height: 250px;
 }
@@ -148,7 +148,7 @@ h3 {
 	#main-image {
 		background-position: 0 -190px;
 	}
-	
+
 	#header img {
 		width: 100%;
 		height: auto;
@@ -156,7 +156,7 @@ h3 {
 	}
 }
 
-@media (max-width: 991px) {	
+@media (max-width: 991px) {
 	#header img {
 		width: 250px;
 		padding: 0;
@@ -170,11 +170,11 @@ h3 {
 	.container {
 		width: 100%;
 	}
-	
+
 	#header {
 		text-align: center;
 	}
-	
+
 	#main-image {
 		display: none;
 	}
